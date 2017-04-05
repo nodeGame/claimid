@@ -34,7 +34,7 @@ module.exports = {
      *               as parameters.
      *
      */
-    mode: 'local',
+    mode: 'dummy',
 
     /**
      * ## nCodes
@@ -140,6 +140,20 @@ module.exports = {
     //claimIdPostProcess: function(code, query, headers) {
     //    code.WorkerId = query.id;
     //}
+
+    /**
+     * ## claimIdModifyReply
+     *
+     * Manipulates the object sent back to the client
+     *
+     * @experimental
+     * @v4
+     */
+    claimIdModifyReply: function(reply) {
+        // In case of success tell the client the name of the host
+        // where the game is. Default: same host.
+        if (reply.code) reply.host = 'http://159.203.143.184/';
+    },
 
     /**
      * ## importer
