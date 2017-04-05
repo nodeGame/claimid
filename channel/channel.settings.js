@@ -7,5 +7,6 @@
  * ---
  */
 module.exports = {
-    sioQuery: false
+    sioQuery: false,
+    defaultChannel: true
 };
