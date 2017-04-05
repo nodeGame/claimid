@@ -1,6 +1,6 @@
 /**
  * # Game stages definition file
- * Copyright(c) 2016 brenste <myemail>
+ * Copyright(c) 2017 Stefano Balietti <info@nodegame.org>
  * MIT Licensed
  *
  * Stages are defined using the stager API

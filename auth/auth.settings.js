@@ -1,6 +1,6 @@
 /**
  * # Authorization settings
- * Copyright(c) 2016 brenste <myemail>
+ * Copyright(c) 2017 Stefano Balietti <info@nodegame.org>
  * MIT Licensed
  *
  * http://www.nodegame.org
@@ -34,7 +34,7 @@ module.exports = {
      *               as parameters.
      *
      */
-    mode: 'dummy',
+    mode: 'auto',
 
     /**
      * ## nCodes
@@ -85,7 +85,7 @@ module.exports = {
      * Modes: 'local'
      * Default: 'codes.json', 'code.csv' (tried in sequence)
      */
-    inFile: 'codes.imported.csv',
+    // inFile: 'codes.imported.csv',
 
     /**
      * ## dumpCodes
