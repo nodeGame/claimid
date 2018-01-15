@@ -152,7 +152,9 @@ module.exports = {
     claimIdModifyReply: function(reply) {
         // In case of success tell the client the name of the host
         // where the game is. Default: same host.
-        if (reply.code) reply.host = 'http://159.203.143.184/';
+        // Old Host.
+        // if (reply.code) reply.host = 'http://159.203.143.184/';
+        if (reply.code) reply.host = 'http://104.236.207.201:8080/';
     },
 
     /**
