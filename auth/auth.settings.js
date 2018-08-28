@@ -154,7 +154,7 @@ module.exports = {
         // where the game is. Default: same host.
         // Old Host.
         // if (reply.code) reply.host = 'http://159.203.143.184/';
-        if (reply.code) reply.host = 'http://142.93.81.82:8080/';
+        if (reply.code) reply.host = 'http://142.93.81.82:8080/hawkdove/';
     },
 
     /**
